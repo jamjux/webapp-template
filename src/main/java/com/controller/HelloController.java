@@ -13,4 +13,9 @@ public class HelloController {
 		mv.addObject("message", "Hello");
 		return mv;
 	}
+	
+//	@RequestMapping("/login")
+//	public String login() {
+//		return "login";
+//	}
 }
